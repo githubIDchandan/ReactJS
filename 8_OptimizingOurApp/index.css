@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: #f0f0f0;
+    width: 100%;
+    /* position: absolute; */
+    top:0;
+    left:0;
+    height: 120px;
+
+  
+}
+.nav-logo{
+    width: 120px;
+    margin-left: 2px;
+    /* border-radius: 500px; */
+    
+}
+.nav-item>ul{
+    display: flex;
+
+}
+.nav-item>ul>li{
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    list-style: none;
+    font-size: 25px;
+}
+.res{
+    margin: 10px;
+    /* margin-top: 150px; */
+    /* width: 200px;
+    height: 300px;
+    border: 1px solid black; */
+
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.resCard-log{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+.res-card{
+    width: 200px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.res-card:hover{
+ border: 1px solid black;
+ border-radius: 10px;
+
+}
+.filter-btn{
+   padding: 10px;
+   margin-bottom: 10px;
+   margin-left: 5px;
+   cursor: pointer;
+}
+.filter-btn:hover{
+    background-color: transparent;
+}
+.parentshimmer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    height: 300px;
+    width: 200px;
+    border-radius: 2px;
+    background-color: #f0f0f0;
+    margin: 5px;
+   
+
+}
+.loginbtn{
+    padding: 0px 50px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.parentSearch{
+    display: flex;
+}
+.search{
+    margin-top: 10px;
+}
+.errmsg{
+    color: red;
+}
+.errStatus{
+    background-color: black;
+    color: white;
+    width: fit-content;
+}
+
+.errparent{
+   
+    width: 100vw; 
+    height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.err{
+   
+  height: 300px;
+  width: 600px;  
+  border: 3px solid green;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  
+
+  
+ 
+}
+.errCard{
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+.oopsmsg{
+    text-align: center;
+}
+.wmsg{
+    text-align: center;
+}
+.errStatus{
+    margin-left: 150px;
+}
